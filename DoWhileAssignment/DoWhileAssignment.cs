@@ -38,10 +38,10 @@
 
             do
             {
-                Console.Write(currentNumber + " ");
+                Console.Write($"{currentNumber} ");
                 int temp = currentNumber;
                 currentNumber = nextNumber;
-                nextNumber = temp + nextNumber;
+                nextNumber += temp;
                 count++;
             } while (count < number);
 
