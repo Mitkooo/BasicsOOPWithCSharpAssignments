@@ -1,6 +1,4 @@
-﻿using System.ComponentModel;
-
-namespace ForLoopAssignment
+﻿namespace ForLoopAssignment
 {
     public class ForLoopAssignment
     {
@@ -28,13 +26,11 @@ namespace ForLoopAssignment
         static void DisplayNumbersInRightAngleTriangle()
         {
             Console.WriteLine("Task 2");
-            int rowCounter, columnCounter;
             int rowsPattern = 10;
 
-            for (rowCounter = 1; rowCounter <= rowsPattern; rowCounter++)
+            for (int rowCounter = 1; rowCounter <= rowsPattern; rowCounter++)
             {
-                // Here columnCounter variable is outside the For loop since it needs to be reset or it won't print number correctly
-                for (columnCounter = 1; columnCounter <= rowCounter; columnCounter++)
+                for (int columnCounter = 1; columnCounter <= rowCounter; columnCounter++)
                 {
                     Console.Write(columnCounter);
                 }
@@ -47,13 +43,11 @@ namespace ForLoopAssignment
         static void DisplaySameNumberInARowInRightAngleTriangle()
         {
             Console.WriteLine("Task 3");
-            int rowCounter, columnCounter;
             int rowsPattern = 4;
 
-            for (rowCounter = 1; rowCounter <= rowsPattern; rowCounter++)
+            for (int rowCounter = 1; rowCounter <= rowsPattern; rowCounter++)
             {
-                // Here columnCounter is inside For loop since I don't need to reset the value as in task 2
-                for (columnCounter = 1; columnCounter <= rowCounter; columnCounter++)
+                for (int columnCounter = 1; columnCounter <= rowCounter; columnCounter++)
                 {
                     Console.Write(rowCounter);
                 }
@@ -71,13 +65,12 @@ namespace ForLoopAssignment
         static void DisplayNumberFrom1To10WithSpacesInRightAngleTriangle()
         {
             Console.WriteLine("Task 4");
-            int rowCounter, columnCounter;
             int rowsPattern = 5;
             int numInLine = 1;
 
-            for (rowCounter = 1; rowCounter <= rowsPattern; rowCounter++)
+            for (int rowCounter = 1; rowCounter <= rowsPattern; rowCounter++)
             {
-                for (columnCounter = 1; columnCounter < rowCounter; columnCounter++)
+                for (int columnCounter = 1; columnCounter < rowCounter; columnCounter++)
                 {
                     Console.Write(numInLine + " ");
                     numInLine++;
@@ -95,17 +88,16 @@ namespace ForLoopAssignment
         static void DisplaySameNumbersInRowInAPyramid()
         {
             Console.WriteLine("Task 5");
-            int rowCounter, columnCounter, space;
             int rowPattern = 4;
             int requiredSpace = 7;
 
-            for (rowCounter = 1; rowCounter <= rowPattern; rowCounter++)
+            for (int rowCounter = 1; rowCounter <= rowPattern; rowCounter++)
             {
-                for (space = 1; space < requiredSpace; space++)
+                for (int space = 1; space < requiredSpace; space++)
                 {
                     Console.Write(" ");
                 }
-                for (columnCounter = 1; columnCounter <= rowCounter; columnCounter++)
+                for (int columnCounter = 1; columnCounter <= rowCounter; columnCounter++)
                 {
                     Console.Write(rowCounter + " ");
                 }
@@ -132,17 +124,17 @@ namespace ForLoopAssignment
         static void DisplayDiamondLikePattern()
         {
             Console.WriteLine("Task 6");
+            Console.Write("Enter a number for the pattern:");
             int rowPattern = ReadInteger();
-            int rowCounter, columnCounter, space;
             int requiredSpace = rowPattern + 1;
 
-            for (rowCounter = 1; rowCounter <= rowPattern; rowCounter++)
+            for (int rowCounter = 1; rowCounter <= rowPattern; rowCounter++)
             {
-                for (space = 1; space < requiredSpace; space++)
+                for (int space = 1; space < requiredSpace; space++)
                 {
                     Console.Write(" ");
                 }
-                for (columnCounter = 1; columnCounter <= rowCounter; columnCounter++)
+                for (int columnCounter = 1; columnCounter <= rowCounter; columnCounter++)
                 {
                     Console.Write(" *");
                 }
@@ -153,13 +145,13 @@ namespace ForLoopAssignment
 
             requiredSpace = 1;
 
-            for (rowCounter = rowPattern - 1; rowCounter >= 1; rowCounter--)
+            for (int rowCounter = rowPattern - 1; rowCounter >= 1; rowCounter--)
             {
-                for (space = 4; space > requiredSpace; space--)
+                for (int space = 4; space > requiredSpace; space--)
                 {
                     Console.Write(" ");
                 }
-                for (columnCounter = 1; columnCounter <= rowCounter; columnCounter++)
+                for (int columnCounter = 1; columnCounter <= rowCounter; columnCounter++)
                 {
                     Console.Write("* ");
                 }

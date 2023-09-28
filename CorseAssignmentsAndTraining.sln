@@ -5,13 +5,15 @@ VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CorseAssignmentsAndTraining", "CorseAssignmentsAndTraining\CorseAssignmentsAndTraining.csproj", "{8878029D-60EB-4272-9066-CCC3CBA6DEB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhileLoopAssignment", "WhileLoopAssignment\WhileLoopAssignment.csproj", "{7E3E215A-75EE-43B2-9083-EA48EA322D15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhileLoopAssignment", "WhileLoopAssignment\WhileLoopAssignment.csproj", "{7E3E215A-75EE-43B2-9083-EA48EA322D15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchCaseAssignment", "SwitchCaseAssignment\SwitchCaseAssignment.csproj", "{9D88D835-B3E2-4801-85B5-84C8EC3E3CD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwitchCaseAssignment", "SwitchCaseAssignment\SwitchCaseAssignment.csproj", "{9D88D835-B3E2-4801-85B5-84C8EC3E3CD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IfElseAssignment", "IfElseAssignment\IfElseAssignment.csproj", "{C559EC43-8B79-4022-B369-611F75FB8931}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IfElseAssignment", "IfElseAssignment\IfElseAssignment.csproj", "{C559EC43-8B79-4022-B369-611F75FB8931}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForLoopAssignment", "ForLoopAssignment\ForLoopAssignment.csproj", "{07D89142-FAD0-4A18-94D7-76E0EB699C6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForLoopAssignment", "ForLoopAssignment\ForLoopAssignment.csproj", "{07D89142-FAD0-4A18-94D7-76E0EB699C6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoWhileAssignment", "DoWhileAssignment\DoWhileAssignment.csproj", "{0CA2BE7C-2807-4B93-A45D-EBCD644D268F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{07D89142-FAD0-4A18-94D7-76E0EB699C6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07D89142-FAD0-4A18-94D7-76E0EB699C6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07D89142-FAD0-4A18-94D7-76E0EB699C6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CA2BE7C-2807-4B93-A45D-EBCD644D268F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CA2BE7C-2807-4B93-A45D-EBCD644D268F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CA2BE7C-2807-4B93-A45D-EBCD644D268F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CA2BE7C-2807-4B93-A45D-EBCD644D268F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,9 +4,9 @@
     {
         public static void Main(string[] args)
         {
-            DisplayNumbersFrom10To1InReverse();
-            PrintNumbersInBetween();
-            PrintNumbersBetweenWithException();
+            //DisplayNumbersFrom10To1InReverse();
+            //PrintNumbersInBetween();
+            //PrintNumbersBetweenWithException();
             PrintNumbersFrom1To10ButStopAt5();
         }
 
