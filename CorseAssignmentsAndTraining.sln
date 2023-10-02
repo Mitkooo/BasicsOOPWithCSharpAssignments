@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IfElseAssignment", "IfElseA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForLoopAssignment", "ForLoopAssignment\ForLoopAssignment.csproj", "{07D89142-FAD0-4A18-94D7-76E0EB699C6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoWhileAssignment", "DoWhileAssignment\DoWhileAssignment.csproj", "{0CA2BE7C-2807-4B93-A45D-EBCD644D268F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoWhileAssignment", "DoWhileAssignment\DoWhileAssignment.csproj", "{0CA2BE7C-2807-4B93-A45D-EBCD644D268F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringsAssignment", "StringsAssignment\StringsAssignment.csproj", "{79FC239A-745F-4F99-B332-F3A004796BE5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{0CA2BE7C-2807-4B93-A45D-EBCD644D268F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CA2BE7C-2807-4B93-A45D-EBCD644D268F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CA2BE7C-2807-4B93-A45D-EBCD644D268F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79FC239A-745F-4F99-B332-F3A004796BE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79FC239A-745F-4F99-B332-F3A004796BE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79FC239A-745F-4F99-B332-F3A004796BE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79FC239A-745F-4F99-B332-F3A004796BE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
