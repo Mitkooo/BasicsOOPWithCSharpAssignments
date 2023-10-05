@@ -7,10 +7,10 @@ namespace ArraysAssignment
     {
         public static void Main()
         {
-            //SortIntArrayAsc();
-            //SecondWayOfsortArrayAsc();
-            //sumValuesOfArray();
-            //isValueContainedInArray();
+            SortIntArrayAsc();
+            SecondWayOfsortArrayAsc();
+            sumValuesOfArray();
+            isValueContainedInArray();
             SortArrayInDesc();
         }
 
@@ -36,6 +36,7 @@ namespace ArraysAssignment
             {
                 Console.Write($"{num} ");
             }
+            Console.WriteLine();
         }
 
         // 3. Write a C# program to sum values of an array.
