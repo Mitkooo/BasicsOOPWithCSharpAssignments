@@ -20,7 +20,8 @@ namespace ArraysAssignment
             Console.WriteLine("Task 1");
             int[] array = new int[11] { 10, 6, 3, 8, 5, 4, 7, 9, 2, 1, 11 };
             Array.Sort(array);
-            for(int i = 0; i <= 10; i++)
+            Console.WriteLine("Sorted numbers in ascending order are: ");
+            for (int i = 0; i <= 10; i++)
             {
                 Console.WriteLine(array[i]);
             }
@@ -32,6 +33,7 @@ namespace ArraysAssignment
             Console.WriteLine("\nTask 2");
             int[] array = new int[11] { 10, 6, 3, 8, 5, 4, 7, 9, 2, 1, 11 };
             var sortedNumbers = array.OrderBy(x => x);
+            Console.WriteLine("Sorted numbers in ascending order are: ");
             foreach (int num in sortedNumbers)
             {
                 Console.Write($"{num} ");
