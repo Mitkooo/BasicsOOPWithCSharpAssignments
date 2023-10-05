@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForLoopAssignment", "ForLoo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoWhileAssignment", "DoWhileAssignment\DoWhileAssignment.csproj", "{0CA2BE7C-2807-4B93-A45D-EBCD644D268F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringsAssignment", "StringsAssignment\StringsAssignment.csproj", "{79FC239A-745F-4F99-B332-F3A004796BE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringsAssignment", "StringsAssignment\StringsAssignment.csproj", "{79FC239A-745F-4F99-B332-F3A004796BE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysAssignment", "ArraysAssignment\ArraysAssignment.csproj", "{3EDA06EE-63F2-4DF4-8D38-6AAD1A3B5CF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{79FC239A-745F-4F99-B332-F3A004796BE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79FC239A-745F-4F99-B332-F3A004796BE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79FC239A-745F-4F99-B332-F3A004796BE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EDA06EE-63F2-4DF4-8D38-6AAD1A3B5CF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EDA06EE-63F2-4DF4-8D38-6AAD1A3B5CF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EDA06EE-63F2-4DF4-8D38-6AAD1A3B5CF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EDA06EE-63F2-4DF4-8D38-6AAD1A3B5CF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

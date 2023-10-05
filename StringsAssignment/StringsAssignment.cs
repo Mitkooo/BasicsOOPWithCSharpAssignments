@@ -1,5 +1,4 @@
-﻿using System.ComponentModel;
-using System.Text.RegularExpressions;
+﻿using System.Text.RegularExpressions;
 
 namespace StringsAssignment
 {
@@ -8,6 +7,7 @@ namespace StringsAssignment
         public static void Main(string[] args)
         {
             CompareStrings();
+            ConcatenateString();
             StringObjectWithCharArray();
             isCharContainedInString();
             RemoveWhiteSpace();
@@ -23,7 +23,7 @@ namespace StringsAssignment
             Console.WriteLine("Enter second word:");
             string right = ReadString();
             
-            if(String.Compare(left, right) == 0)
+            if(left.Length == right.Length)
             {
                 Console.WriteLine($"{left} and {right} are equal.");
             }
@@ -42,7 +42,7 @@ namespace StringsAssignment
             Console.WriteLine("Enter second half of the sentence:");
             string right = ReadString();
 
-            Console.WriteLine($"{left}" + $"{right}");
+            Console.WriteLine($"{left} {right}");
         }
 
         // 3.Write a C# program to create a new String object with the contents of a character array.
