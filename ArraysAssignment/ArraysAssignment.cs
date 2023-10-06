@@ -1,17 +1,15 @@
-﻿using System;
-using System.Linq;
-
-namespace ArraysAssignment
+﻿namespace ArraysAssignment
 {
     public class ArraysAssignment
     {
         public static void Main()
         {
-            SortIntArrayAsc();
-            SecondWayOfsortArrayAsc();
-            sumValuesOfArray();
-            isValueContainedInArray();
-            SortArrayInDesc();
+            //SortIntArrayAsc();
+            //SecondWayOfsortArrayAsc();
+            //sumValuesOfArray();
+            //isValueContainedInArray();
+            //SortArrayInDesc();
+            SortArrayCustomWay();
         }
 
         // 1. Write a C# program to sort an integer array in ascending and then print it.
@@ -77,6 +75,31 @@ namespace ArraysAssignment
             foreach (int num in sortedNumbers)
             {
                 Console.Write($"{num} ");
+            }
+        }
+
+        // Sorting of array values without the use of already defined methods(sort/OrderBy)
+        static void SortArrayCustomWay()
+        {
+            Console.WriteLine("Custom sorting.");
+            int[] array = { 10, 3, 6, 8, 100, 50 };
+
+            for (int i = 0; i < array.Length - 1; i++)
+            {
+                for (int j = 0; j < array.Length - i - 1; j++)
+                {
+                    if (array[j] > array[j + 1])
+                    {
+                        int temp = array[j];
+                        array[j] = array[j + 1];
+                        array[j + 1] = temp;
+                    }
+                }
+            }
+
+            foreach (int value in array)
+            {
+                Console.WriteLine(value);
             }
         }
 
