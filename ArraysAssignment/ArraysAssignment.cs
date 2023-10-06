@@ -84,7 +84,7 @@
             Console.WriteLine("Custom sorting.");
             int[] array = { 10, 3, 6, 8, 100, 50 };
 
-            for (int i = 0; i < array.Length - 1; i++)
+            for(int i = 0; i < array.Length - 1; i++)
             {
                 for (int j = 0; j < array.Length - i - 1; j++)
                 {
