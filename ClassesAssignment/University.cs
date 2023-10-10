@@ -13,15 +13,15 @@
             started = hasStarted;
         }
 
-        public bool ChangeYearStartedSwitch(bool flag)
+        public void ChangeYearStartedSwitch(bool flag)
         {
-            return started = flag;
+            started = flag;
         }
 
         public static bool HasTheStudentYearStarted()
         {
             return started;
-        }
+        } 
     }
 }
 
