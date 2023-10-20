@@ -6,10 +6,11 @@
     // and methods: takeExam()
     // This method should implement logic for printing out the following message: "Taking exam".
     // Note: name and fNumber are assigned in class constructor.
-    class Student
+    public class Student
     {
-        public string? name;
-        public int fNumber;
+        public string? name_;
+        public int fNumber_;
+        public bool attendance_ = false;
 
         public Student()
         {
@@ -18,8 +19,8 @@
 
         public Student(string name, int fNumber)
         {
-            this.name = name;
-            this.fNumber = fNumber;
+            name_ = name;
+            fNumber_ = fNumber;
         }
 
         public void TakingExam()

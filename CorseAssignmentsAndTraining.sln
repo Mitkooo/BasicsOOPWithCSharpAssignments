@@ -19,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringsAssignment", "String
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArraysAssignment", "ArraysAssignment\ArraysAssignment.csproj", "{3EDA06EE-63F2-4DF4-8D38-6AAD1A3B5CF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassesAssignment", "ClassesAssignment\ClassesAssignment.csproj", "{75FE87A9-26CC-4131-B8D3-607C7E72E596}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassesAssignment", "ClassesAssignment\ClassesAssignment.csproj", "{75FE87A9-26CC-4131-B8D3-607C7E72E596}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
