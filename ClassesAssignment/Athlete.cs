@@ -3,11 +3,10 @@
     public class Athlete : Student
     {
         public string certification_;
-        public Athlete() { }
 
         public Athlete(string certification)
         {
-            certification = certification_;
+            certification_ = certification;
         }
     }
 }
