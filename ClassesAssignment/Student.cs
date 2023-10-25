@@ -2,9 +2,9 @@
 {
     public class Student
     {
-        public string? name_;
-        public int fNumber_;
-        public bool attendance_ = false;
+        public string? Name { get; set; }
+        public int FNumber { get; set; }
+        public bool Attendance { get; set; }
 
         public Student()
         {
@@ -13,8 +13,9 @@
 
         public Student(string name, int fNumber)
         {
-            name_ = name;
-            fNumber_ = fNumber;
+            this.Name = name;
+            this.FNumber = fNumber;
+            this.Attendance = true;
         }
 
         public void TakingExam()

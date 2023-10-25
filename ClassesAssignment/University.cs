@@ -2,7 +2,7 @@
 {
     public class University
     {
-        public static bool started = false;
+        public static bool started_ = false;
 
         public University()
         {
@@ -10,17 +10,17 @@
 
         public University(bool hasStarted)
         {
-            started = hasStarted;
+            started_ = hasStarted;
         }
 
         public void ChangeYearStartedSwitch(bool flag)
         {
-            started = flag;
+            started_ = flag;
         }
 
         public static bool HasTheStudentYearStarted()
         {
-            return started;
+            return started_;
         } 
     }
 }
