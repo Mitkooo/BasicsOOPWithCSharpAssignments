@@ -2,11 +2,11 @@
 {
     public class Athlete : Student
     {
-        public string certification_;
+        public string certification;
 
         public Athlete(string certification)
         {
-            certification_ = certification;
+            this.certification = certification;
         }
     }
 }
