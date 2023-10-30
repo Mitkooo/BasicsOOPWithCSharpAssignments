@@ -2,7 +2,7 @@
 {
     public class Athlete : Student
     {
-        public string certification;
+        public string certification { get; set; }
 
         public Athlete(string certification)
         {
